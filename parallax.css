@@ -132,3 +132,36 @@ html, body {
 .background.down-scroll + .background:not(.down-scroll) .content-wrapper {
   transform: translateY(15vh);
 }
+
+
+
+
+
+@media screen and (max-width: 780px) {
+
+  .content-title {
+    margin: 1vh;
+    margin-bottom: 0;
+    font-size: 10vw;
+    line-height: 1.4;
+    color: #fff;
+  
+  }
+  .content-subtitle{
+    margin: 5vh;
+    text-align: left;
+    font-size: 4.3vw;
+    line-height: 1.3;
+    color: #fff;
+}
+
+  .content-wrapper{
+    padding-bottom: 10px;
+  }
+
+}
+
+
+.container{
+  background-color: red;
+}
