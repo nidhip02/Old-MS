@@ -1,0 +1,47 @@
+.container {
+    color: rgb(255, 255, 255);
+    margin: 0 auto;
+    text-align: center;
+    background: linear-gradient(-45deg, #1843ce, #ff3dff);
+    /* background-color: rgba(0, 68, 255, 0.651); */
+    border-radius: 20px;
+    border-style: groove;
+    border-color: cornsilk;
+  }
+  
+  h1 {
+    font-weight: normal;
+    letter-spacing: 0.009rem;
+    text-transform: uppercase;
+  }
+  
+.clock-li {
+    display: inline-block;
+    font-size: 2em;
+    list-style-type: none;
+    padding: 0.5em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 20px rgb(128, 200, 224),  0 0 20px rgba(10, 175, 230, 0);
+  }
+  
+.clock-li span {
+    display: block;
+    font-size: 4.5rem;
+  }
+  
+  
+  @media all and (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+    
+    .clock-li {
+      font-size: 1.125rem;
+      padding: .75rem;
+    }
+    
+    .clock-li span {
+      font-size: 3.375rem;
+    }
+  }
