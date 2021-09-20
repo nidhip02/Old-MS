@@ -7,7 +7,6 @@
     position: absolute;
     left: 50%;
     align-items: center;
-    border-radius: 50px;
     cursor: pointer;
   }
   .scroll-down::before,
